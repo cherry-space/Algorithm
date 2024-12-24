@@ -1,8 +1,4 @@
-import sys
-
-dont_see = []
-total = 0
-
+##################1764#####################
 N, M = map(int, input().split())
 
 dont_listen = []
@@ -18,3 +14,5 @@ result = sorted(set(dont_listen) & set(dont_see))
 print(len(result))
 for name in result:
     print(name)
+###########################################
+
